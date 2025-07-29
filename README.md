@@ -32,3 +32,14 @@ A simple, clean web calculator built with HTML, CSS, and JavaScript.
 ## How to Run
 
 Simply open `calculator.html` in any modern web browser. No server or additional setup required.
+
+## Development Guidelines
+
+**Important:** Always commit and push changes to the repository after making any modifications to project files. This ensures version control and backup of all changes.
+
+To commit changes:
+```bash
+git add .
+git commit -m "Description of changes made"
+git push origin main
+```
