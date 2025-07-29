@@ -33,11 +33,23 @@ A simple, clean web calculator built with HTML, CSS, and JavaScript.
 
 Simply open `calculator.html` in any modern web browser. No server or additional setup required.
 
+## Git Auto-Commit Configuration
+
+```yaml
+# Auto-commit settings (parsed by file watcher script)
+repository: https://github.com/nuckecy/Figma-Calculator.git
+branch: main
+auto_commit: enabled
+watch_files: "*.html,*.css,*.js"
+commit_template: "Auto-update {filename} - {timestamp}"
+push_enabled: true
+```
+
 ## Development Guidelines
 
-**Important:** Always commit and push changes to the repository after making any modifications to project files. This ensures version control and backup of all changes.
+**Important:** This project uses automatic git commits when files change. The auto-commit system is configured above and monitors HTML, CSS, and JS files for changes.
 
-To commit changes:
+Manual commit (if needed):
 ```bash
 git add .
 git commit -m "Description of changes made"
