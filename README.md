@@ -43,7 +43,7 @@ auto_commit: enabled
 watch_files: "*"
 commit_template: "{instruction} - {filename} - {timestamp}"
 push_enabled: true
-last_instruction: "Change it to Calculator Figma Design"
+last_instruction: "Let update the commit message"
 ```
 
 ## Development Guidelines
