@@ -129,3 +129,16 @@
 [2025-07-29 12:29:55]   Watch files: *
 [2025-07-29 12:29:55]   Push enabled: true
 [2025-07-29 12:29:55]   Push enabled: true
+[2025-07-29 12:29:55] No changes to commit
+[2025-07-29 12:29:55] File changed: calculator.html
+[2025-07-29 12:29:55] File matches watch pattern, processing...
+[2025-07-29 12:29:56] Successfully committed changes: Auto-update calculator.html - 2025-07-29 12:29:55
+[2025-07-29 12:29:57] Successfully pushed to https://github.com/nuckecy/Figma-Calculator.git (main)
+[2025-07-29 12:29:57] File changed: calculator.html
+[2025-07-29 12:29:57] File matches watch pattern, processing...
+[2025-07-29 12:29:57] Configuration loaded:
+[2025-07-29 12:29:57]   Repository: https://github.com/nuckecy/Figma-Calculator.git
+[2025-07-29 12:29:57]   Branch: main
+[2025-07-29 12:29:57]   Auto-commit: enabled
+[2025-07-29 12:29:57]   Watch files: *
+[2025-07-29 12:29:57]   Push enabled: true
