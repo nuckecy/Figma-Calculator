@@ -526,3 +526,24 @@
 [2025-07-29 12:39:49]   Auto-commit: enabled
 [2025-07-29 12:39:49]   Watch files: *
 [2025-07-29 12:39:49]   Push enabled: true
+[2025-07-29 12:39:50] Successfully committed changes: {instruction} - debug-config.sh - 2025-07-29 12:39:49
+[2025-07-29 12:39:50] Successfully pushed to https://github.com/nuckecy/Figma-Calculator.git (main)
+[2025-07-29 12:41:14] Starting Auto-Git Watcher...
+[2025-07-29 12:41:14] Configuration loaded:
+[2025-07-29 12:41:14]   Repository: https://github.com/nuckecy/Figma-Calculator.git
+[2025-07-29 12:41:14]   Branch: main
+[2025-07-29 12:41:14]   Auto-commit: enabled
+[2025-07-29 12:41:14]   Watch files: *
+[2025-07-29 12:41:14]   Push enabled: true
+[2025-07-29 12:41:14]   Last instruction: Change the Title to Figma Calculator Design
+[2025-07-29 12:41:14] Watching directory: /Users/otobong.okoko/Desktop/code/mcp-cal
+[2025-07-29 12:41:14] Press Ctrl+C to stop watching...
+[2025-07-29 12:41:17] File changed: calculator.html
+[2025-07-29 12:41:17] File matches watch pattern, processing...
+[2025-07-29 12:41:19] Configuration loaded:
+[2025-07-29 12:41:19]   Repository: https://github.com/nuckecy/Figma-Calculator.git
+[2025-07-29 12:41:19]   Branch: main
+[2025-07-29 12:41:19]   Auto-commit: enabled
+[2025-07-29 12:41:19]   Watch files: *
+[2025-07-29 12:41:19]   Push enabled: true
+[2025-07-29 12:41:19]   Last instruction: Change the Title to Figma Calculator Design
