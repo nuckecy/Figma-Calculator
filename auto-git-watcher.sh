@@ -27,6 +27,7 @@ parse_config() {
     WATCH_FILES=$(grep "watch_files:" "$README_FILE" | sed 's/watch_files: *//' | tr -d '"' | tr -d "'")
     COMMIT_TEMPLATE=$(grep "commit_template:" "$README_FILE" | sed 's/commit_template: *//' | tr -d '"' | tr -d "'")
     PUSH_ENABLED=$(grep "push_enabled:" "$README_FILE" | sed 's/push_enabled: *//' | tr -d '"' | tr -d "'")
+    LAST_INSTRUCTION=$(grep "last_instruction:" "$README_FILE" | sed 's/last_instruction: *//' | tr -d '"' | tr -d "'")
     
     # Set defaults if not found
     REPOSITORY=${REPOSITORY:-"origin"}
