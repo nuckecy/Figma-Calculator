@@ -34,8 +34,9 @@ parse_config() {
     BRANCH=${BRANCH:-"main"}
     AUTO_COMMIT=${AUTO_COMMIT:-"enabled"}
     WATCH_FILES=${WATCH_FILES:-"*.html,*.css,*.js"}
-    COMMIT_TEMPLATE=${COMMIT_TEMPLATE:-"Auto-update {filename} - {timestamp}"}
+    COMMIT_TEMPLATE=${COMMIT_TEMPLATE:-"{instruction} - {filename} - {timestamp}"}
     PUSH_ENABLED=${PUSH_ENABLED:-"true"}
+    LAST_INSTRUCTION=${LAST_INSTRUCTION:-"Auto-update"}
     
     log_message "Configuration loaded:"
     log_message "  Repository: $REPOSITORY"
@@ -43,6 +44,7 @@ parse_config() {
     log_message "  Auto-commit: $AUTO_COMMIT"
     log_message "  Watch files: $WATCH_FILES"
     log_message "  Push enabled: $PUSH_ENABLED"
+    log_message "  Last instruction: $LAST_INSTRUCTION"
 }
 
 # Function to generate commit message
@@ -51,9 +53,22 @@ generate_commit_message() {
     local timestamp=$(date '+%Y-%m-%d %H:%M:%S')
     local message="$COMMIT_TEMPLATE"
     
+    # Get instruction and truncate to first 6 words if too long
+    local instruction="$LAST_INSTRUCTION"
+    if [[ -z "$instruction" ]]; then
+        instruction="Auto-update"
+    else
+        # Split instruction into words and take first 6
+        local words=($instruction)
+        if [[ ${#words[@]} -gt 6 ]]; then
+            instruction="${words[0]} ${words[1]} ${words[2]} ${words[3]} ${words[4]} ${words[5]}"
+        fi
+    fi
+    
     # Replace placeholders
     message="${message//\{filename\}/$filename}"
     message="${message//\{timestamp\}/$timestamp}"
+    message="${message//\{instruction\}/$instruction}"
     
     echo "$message"
 }
