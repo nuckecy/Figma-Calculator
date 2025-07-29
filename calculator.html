@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <div class="display" id="display">0</div>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-gray btn-function" onclick="clearAll()">AC</button>
+            <button class="btn btn-gray btn-function" onclick="toggleSign()">+/-</button>
+            <button class="btn btn-gray" onclick="percentage()">%</button>
+            <button class="btn btn-orange" onclick="operator('/')">÷</button>
+            
+            <button class="btn btn-gray" onclick="number('7')">7</button>
+            <button class="btn btn-gray" onclick="number('8')">8</button>
+            <button class="btn btn-gray" onclick="number('9')">9</button>
+            <button class="btn btn-orange" onclick="operator('*')">×</button>
+            
+            <button class="btn btn-gray" onclick="number('4')">4</button>
+            <button class="btn btn-gray" onclick="number('5')">5</button>
+            <button class="btn btn-gray" onclick="number('6')">6</button>
+            <button class="btn btn-orange" onclick="operator('-')">-</button>
+            
+            <button class="btn btn-gray" onclick="number('1')">1</button>
+            <button class="btn btn-gray" onclick="number('2')">2</button>
+            <button class="btn btn-gray" onclick="number('3')">3</button>
+            <button class="btn btn-orange" onclick="operator('+')">+</button>
+            
+            <button class="btn btn-gray btn-icon" onclick="calculatorIcon()">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+                    <rect x="8" y="8" width="2" height="2" stroke="currentColor" stroke-width="1"/>
+                    <rect x="12" y="8" width="2" height="2" stroke="currentColor" stroke-width="1"/>
+                    <rect x="16" y="8" width="2" height="2" stroke="currentColor" stroke-width="1"/>
+                    <rect x="8" y="12" width="2" height="2" stroke="currentColor" stroke-width="1"/>
+                    <rect x="12" y="12" width="2" height="2" stroke="currentColor" stroke-width="1"/>
+                    <rect x="16" y="12" width="2" height="2" stroke="currentColor" stroke-width="1"/>
+                    <rect x="8" y="16" width="2" height="2" stroke="currentColor" stroke-width="1"/>
+                    <rect x="12" y="16" width="2" height="2" stroke="currentColor" stroke-width="1"/>
+                    <rect x="16" y="16" width="2" height="2" stroke="currentColor" stroke-width="1"/>
+                </svg>
+            </button>
+            <button class="btn btn-gray" onclick="number('0')">0</button>
+            <button class="btn btn-gray" onclick="decimal()">.</button>
+            <button class="btn btn-orange" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

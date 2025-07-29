@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+:root {
+    --spacing-0: 0;
+    --spacing-16: 16px;
+    --spacing-8: 8px;
+    --spacing-24: 24px;
+    --spacing-round: 9999px;
+    --color-bg: #e4e4e4;
+    --color-white: #ffffff;
+    --color-bt-gray: #898989;
+    --color-bt-orange: #e26900;
+    --color-bg-cal: #272727;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calculator {
+    background-color: var(--color-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.screen {
+    background-color: var(--color-bg);
+    height: 109px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: var(--spacing-16);
+}
+
+.display {
+    font-size: 50px;
+    font-weight: 300;
+    color: #000000;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.buttons {
+    background-color: var(--color-bg-cal);
+    padding: var(--spacing-24);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-8);
+}
+
+.btn {
+    width: 77px;
+    height: 77px;
+    border-radius: var(--spacing-round);
+    border: none;
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--color-white);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn-gray {
+    background-color: var(--color-bt-gray);
+}
+
+.btn-orange {
+    background-color: var(--color-bt-orange);
+}
+
+.btn-function {
+    font-size: 35px;
+}
+
+
+
+.calculator-icon {
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.btn-icon {
+    padding: 0;
+}
+
+.btn-icon svg {
+    width: 40px;
+    height: 40px;
+    fill: white;
+}
