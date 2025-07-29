@@ -40,14 +40,14 @@ Simply open `calculator.html` in any modern web browser. No server or additional
 repository: https://github.com/nuckecy/Figma-Calculator.git
 branch: main
 auto_commit: enabled
-watch_files: "*.html,*.css,*.js"
+watch_files: "*"
 commit_template: "Auto-update {filename} - {timestamp}"
 push_enabled: true
 ```
 
 ## Development Guidelines
 
-**Important:** This project uses automatic git commits when files change. The auto-commit system is configured above and monitors HTML, CSS, and JS files for changes.
+**Important:** This project uses automatic git commits when files change. The auto-commit system is configured above and monitors ALL files in the project folder for changes.
 
 Manual commit (if needed):
 ```bash

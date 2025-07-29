@@ -98,6 +98,11 @@ should_watch_file() {
     local file="$1"
     local patterns="$WATCH_FILES"
     
+    # If pattern is "*", watch all files
+    if [[ "$patterns" == "*" ]]; then
+        return 0
+    fi
+    
     # Convert comma-separated patterns to array
     IFS=',' read -ra PATTERNS <<< "$patterns"
     
