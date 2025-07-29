@@ -467,3 +467,21 @@
 [2025-07-29 12:34:50]   Auto-commit: enabled
 [2025-07-29 12:34:50]   Watch files: *
 [2025-07-29 12:34:50]   Push enabled: true
+[2025-07-29 12:34:51] Successfully committed changes: {instruction} - README.md - 2025-07-29 12:34:50
+[2025-07-29 12:35:29] ERROR: Failed to push to remote repository
+[2025-07-29 12:39:39] File changed: debug-config.sh.tmp.45263.1753785578392
+[2025-07-29 12:39:39] File changed: debug-config.sh.tmp.45263.1753785578392
+[2025-07-29 12:39:39] File matches watch pattern, processing...
+[2025-07-29 12:39:39] File matches watch pattern, processing...
+[2025-07-29 12:39:41] Configuration loaded:
+[2025-07-29 12:39:41] Configuration loaded:
+[2025-07-29 12:39:41]   Repository: https://github.com/nuckecy/Figma-Calculator.git
+[2025-07-29 12:39:41]   Repository: https://github.com/nuckecy/Figma-Calculator.git
+[2025-07-29 12:39:41]   Branch: main
+[2025-07-29 12:39:41]   Branch: main
+[2025-07-29 12:39:41]   Auto-commit: enabled
+[2025-07-29 12:39:41]   Auto-commit: enabled
+[2025-07-29 12:39:41]   Watch files: *
+[2025-07-29 12:39:41]   Watch files: *
+[2025-07-29 12:39:41]   Push enabled: true
+[2025-07-29 12:39:41]   Push enabled: true
