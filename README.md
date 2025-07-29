@@ -41,8 +41,9 @@ repository: https://github.com/nuckecy/Figma-Calculator.git
 branch: main
 auto_commit: enabled
 watch_files: "*"
-commit_template: "Auto-update {filename} - {timestamp}"
+commit_template: "{instruction} - {filename} - {timestamp}"
 push_enabled: true
+last_instruction: "Change it to Calculator Figma Design"
 ```
 
 ## Development Guidelines
