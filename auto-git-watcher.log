@@ -7,3 +7,34 @@
 [2025-07-29 12:23:08]   Push enabled: true
 [2025-07-29 12:23:08] Watching directory: /Users/otobong.okoko/Desktop/code/mcp-cal
 [2025-07-29 12:23:08] Press Ctrl+C to stop watching...
+[2025-07-29 12:25:34] File changed: test-watcher.sh.tmp.45263.1753784734370
+[2025-07-29 12:25:34] File doesn't match watch patterns, ignoring
+[2025-07-29 12:25:34] File changed: test-watcher.sh
+[2025-07-29 12:25:34] File doesn't match watch patterns, ignoring
+[2025-07-29 12:25:44] File changed: test-watcher.sh
+[2025-07-29 12:25:44] File doesn't match watch patterns, ignoring
+[2025-07-29 12:25:52] Starting Auto-Git Watcher...
+[2025-07-29 12:25:52] Configuration loaded:
+[2025-07-29 12:25:52]   Repository: https://github.com/nuckecy/Figma-Calculator.git
+[2025-07-29 12:25:52]   Branch: main
+[2025-07-29 12:25:52]   Auto-commit: enabled
+[2025-07-29 12:25:52]   Watch files: *.html,*.css,*.js
+[2025-07-29 12:25:52]   Push enabled: true
+[2025-07-29 12:25:52] Watching directory: /Users/otobong.okoko/Desktop/code/mcp-cal
+[2025-07-29 12:25:52] Press Ctrl+C to stop watching...
+[2025-07-29 12:25:55] File changed: .!50279!calculator.html
+[2025-07-29 12:25:55] File changed: .!50279!calculator.html
+[2025-07-29 12:25:55] File matches watch pattern, processing...
+[2025-07-29 12:25:55] File matches watch pattern, processing...
+[2025-07-29 12:25:57] Configuration loaded:
+[2025-07-29 12:25:57] Configuration loaded:
+[2025-07-29 12:25:57]   Repository: https://github.com/nuckecy/Figma-Calculator.git
+[2025-07-29 12:25:57]   Repository: https://github.com/nuckecy/Figma-Calculator.git
+[2025-07-29 12:25:57]   Branch: main
+[2025-07-29 12:25:57]   Branch: main
+[2025-07-29 12:25:57]   Auto-commit: enabled
+[2025-07-29 12:25:57]   Auto-commit: enabled
+[2025-07-29 12:25:57]   Watch files: *.html,*.css,*.js
+[2025-07-29 12:25:57]   Watch files: *.html,*.css,*.js
+[2025-07-29 12:25:57]   Push enabled: true
+[2025-07-29 12:25:57]   Push enabled: true
