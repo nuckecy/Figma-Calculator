@@ -498,3 +498,13 @@
 [2025-07-29 12:39:43]   Auto-commit: enabled
 [2025-07-29 12:39:43]   Watch files: *
 [2025-07-29 12:39:43]   Push enabled: true
+[2025-07-29 12:39:44] Successfully committed changes: {instruction} - debug-config.sh - 2025-07-29 12:39:43
+[2025-07-29 12:39:45] Successfully pushed to https://github.com/nuckecy/Figma-Calculator.git (main)
+[2025-07-29 12:39:45] File changed: debug-config.sh
+[2025-07-29 12:39:45] File matches watch pattern, processing...
+[2025-07-29 12:39:45] Configuration loaded:
+[2025-07-29 12:39:45]   Repository: https://github.com/nuckecy/Figma-Calculator.git
+[2025-07-29 12:39:45]   Branch: main
+[2025-07-29 12:39:45]   Auto-commit: enabled
+[2025-07-29 12:39:45]   Watch files: *
+[2025-07-29 12:39:45]   Push enabled: true
