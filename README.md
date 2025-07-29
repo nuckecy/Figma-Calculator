@@ -43,7 +43,7 @@ auto_commit: enabled
 watch_files: "*"
 commit_template: "{instruction} - {filename} - {timestamp}"
 push_enabled: true
-last_instruction: "Change the Title to Figma Calculator Design"
+last_instruction: "Change the HTML title to Live Calculator Figma Design"
 ```
 
 ## Development Guidelines
