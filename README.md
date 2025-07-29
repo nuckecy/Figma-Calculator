@@ -50,6 +50,12 @@ last_instruction: "Let update the commit message"
 
 **Important:** This project uses automatic git commits when files change. The auto-commit system is configured above and monitors ALL files in the project folder for changes.
 
+**Commit Messages:** The system uses your latest instruction (stored in `last_instruction`) as the commit message. If the instruction is longer than 6 words, it will be truncated.
+
+**To update the instruction:** Use `./update-instruction.sh "Your new instruction here"`
+
+**To start the auto-commit watcher:** Run `./auto-git-watcher.sh`
+
 Manual commit (if needed):
 ```bash
 git add .
